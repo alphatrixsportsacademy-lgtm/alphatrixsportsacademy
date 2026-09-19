@@ -53,8 +53,8 @@ export interface Testimonial {
   name: string;
   role: string;
   tag: "Parent" | "Educator" | "School Principal";
-  video: string;
-  highlights: string[];
+  video?: string;
+  highlights?: string[];
 }
 
 export const TESTIMONIALS: Testimonial[] = [

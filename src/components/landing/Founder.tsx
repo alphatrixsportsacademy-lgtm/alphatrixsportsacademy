@@ -1,9 +1,13 @@
 import { Award, GraduationCap, HeartHandshake, Quote } from "lucide-react";
 import { Reveal, SectionPad } from "./shared";
 
-const SUPPORT = [
-  
-];
+type SupportItem = {
+  title: string;
+  text: string;
+  icon: typeof Award;
+};
+
+const SUPPORT: SupportItem[] = [];
 
 export function Founder() {
   return (

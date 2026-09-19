@@ -218,8 +218,6 @@ export function Contact() {
                     value: (
                       <>
                         {CONTACT.address[0]}
-                        <br />
-                        {CONTACT.address[1]}
                       </>
                     ),
                   },

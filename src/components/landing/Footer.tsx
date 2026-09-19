@@ -98,8 +98,6 @@ export function Footer() {
                 <MapPin className="mt-0.5 size-4 shrink-0 text-volt" aria-hidden="true" />
                 <span>
                   {CONTACT.address[0]}
-                  <br />
-                  {CONTACT.address[1]}
                 </span>
               </li>
               <li>

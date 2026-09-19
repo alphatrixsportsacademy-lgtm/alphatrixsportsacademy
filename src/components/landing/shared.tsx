@@ -167,6 +167,16 @@ export function Logo({ compact = false }: { compact?: boolean }) {
 
 /* ------------------------------ Scroll cue dot ----------------------------- */
 
-export function SectionPad({ children }: { children: ReactNode }) {
-  return <div className="mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10">{children}</div>;
+export function SectionPad({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <div className={cn("mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-10", className)}>
+      {children}
+    </div>
+  );
 }
