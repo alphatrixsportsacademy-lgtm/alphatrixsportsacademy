@@ -78,7 +78,7 @@ export function Welcome() {
               <div className="mt-8 flex items-center gap-4 rounded-2xl border border-volt/25 bg-volt/[0.06] p-5">
                 <span className="font-display text-5xl uppercase leading-none text-volt">
                   <img
-                src="/logo.png"
+                src="/Screenshot_20260929-234632.png"
                 alt="Alphatrix"
                 className="inline-block h-20 w-20 object-contain align-middle" 
                 />
