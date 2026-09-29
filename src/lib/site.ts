@@ -9,7 +9,7 @@ export const NAV_LINKS = [
 ] as const;
 
 export const CONTACT = {
-  address: ["Matunga East, Mumbai, Maharashtra, 400019"],
+  address: ["Century Bazaar, Prabhadevi, Mumbai, Maharashtra 400025"],
   phone: "+91 75060 53321",
   phoneHref: "tel:+91 75060 53321",
   email: "alphatrixsportsacademy@gmail.com",
