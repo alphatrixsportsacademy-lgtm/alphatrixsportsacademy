@@ -43,7 +43,7 @@ export function About() {
                 What is Alphatrix
               </p>
               <h2 className="mt-4 font-display text-4xl uppercase leading-[0.98] tracking-wide sm:text-5xl lg:text-6xl">
-                A <span className="text-outline-volt">vitamin-enriched</span> playtime
+                A <span className="text-outline-volt">Playful Approach</span> to Fitness
               </h2>
             </Reveal>
 
