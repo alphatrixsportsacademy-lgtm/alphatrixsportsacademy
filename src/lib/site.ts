@@ -19,8 +19,8 @@ export const CONTACT = {
     { days: "Saturday – Sunday", time: "8:00 – 21:00" },
   ],
   social: {
-    instagram: "https://www.instagram.com/alphatrix_sports?igsi=MWFuYmRwNWhteWQ0",
-    youtube: "https://youtube.com/@alphatrixsportsacademy?si=7mgFLB0HDW2NTz5W",
+    instagram: "https://www.instagram.com/alphatrix_sports_academy/",
+    youtube: "https://www.youtube.com/@ALPHATRIXSPORTSACADEMY",
     linkedin: "https://in.linkedin.com/company/Alphatrix",
   },
 } as const;
