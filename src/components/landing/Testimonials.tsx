@@ -64,14 +64,14 @@ export function Testimonials() {
                 <span>
                   <span
                     className="flex gap-0.5"
-                    aria-label="Rated 4.5 out of 5"
+                    aria-label="Rated 4.9 out of 5"
                   >
                     {Array.from({ length: 5 }).map((_, i) => (
                       <Star
                         key={i}
                         className={cn(
                           "size-3.5",
-                          i < 4
+                          i < 5
                             ? "fill-volt text-volt"
                             : "fill-white/25 text-white/25",
                         )}
