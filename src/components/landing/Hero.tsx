@@ -28,7 +28,7 @@ const MARQUEE_WORDS = [
 ];
 
 const STATS = [
-  { value: "2–10", label: "Years served" },
+  { value: "10+", label: "Years served" },
   { value: "NEP", label: "Aligned curriculum" },
   { value: "4.5★", label: "Google rating" },
 ];
