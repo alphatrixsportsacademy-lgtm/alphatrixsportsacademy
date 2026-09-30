@@ -157,7 +157,7 @@ export function Logo({ compact = false }: { compact?: boolean }) {
       aria-label="Alphatrix Sports Academy home"
     >
       <img
-        src="/logo.png"
+        src="/logonew.png"
         alt="Alphatrix Sports Academy"
         className="h-28 w-40 translate-y-2 object-contain"
       />
