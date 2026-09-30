@@ -86,10 +86,10 @@ export const TESTIMONIALS: Testimonial[] = [
 },
   {
     quote:
-      "The concept behind this kids' fitness class is well-designed and executed. My children have a blast during these classes, learning a variety of games, exercises, yoga, and more. I give a big thumbs up to Alphatrix' kids' fitness class!",
-    name: "Preet Kumar",
-    role: "Parent",
-    tag: "Parent",
+      "Alphatrix has shown me that fitness has no age limit. The sessions are fun, energetic, and motivating, and I truly enjoy every moment of staying active and healthy!",
+    name: "Bachi kakarya",
+    role: "Senior Fitness Trainee",
+    tag: "Senior Trainee",
   },
   {
     quote:
