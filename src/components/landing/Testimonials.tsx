@@ -52,13 +52,13 @@ export function Testimonials() {
             {/* GOOGLE RATING */}
             <Reveal delay={0.1}>
               <a
-                href="https://www.google.com/search?q=Alphatrix+mumbai+reviews"
+                href="https://maps.app.goo.gl/Bp3ooMEyETzSrYWh7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-card px-5 py-4 transition-colors duration-300 hover:border-volt/40"
               >
                 <span className="font-display text-4xl uppercase text-volt">
-                  4.5
+                  4.9
                 </span>
 
                 <span>
