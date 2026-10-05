@@ -91,41 +91,7 @@ export const TESTIMONIALS: Testimonial[] = [
     role: "Senior Fitness Trainee",
     tag: "Senior Trainee",
   },
-  {
-    quote:
-      "Since 2019, Alphatrix has been our invaluable physical fitness partner. Their well-designed sessions enhance our students' fitness according to their age and ability. They seamlessly transitioned to the digital medium during the pandemic, ensuring engaging sessions from home. Our students love it!",
-    name: "Kavita Sukhani",
-    role: "Principal, 7 Rivers School",
-    tag: "School Principal",
-  },
-  {
-    quote:
-      "I'm passionate about motivating children towards health and physical development, which led me to Alphatrix. Their unique approach and well-trained instructors, who are incredibly warm with young children, have made a significant difference. I've seen substantial improvements in the children's gross motor skills. I highly recommend Alphatrix. We've enjoyed a successful partnership for two years and look forward to many more.",
-    name: "Namrata Goel",
-    role: "Principal, Early International Preschool",
-    tag: "School Principal",
-  },
-  {
-    quote:
-      "Since joining Alphatrix, my son Suvirr's motor skills have significantly improved. He excels in coordination, speed, and agility. He's now representing his school in football and achieved second place in athletics. Alphatrix has made him physically stronger and more agile, benefitting him in various sports.",
-    name: "Suvirr's Father",
-    role: "Parent, DY Patil International School",
-    tag: "Parent",
-  },
-  {
-    quote:
-      "Alphatrix transformed Shaurya and Ishaan. After 5 years of training, Ishaan's strength, agility, and endurance skyrocketed. Alphatrix became a blessing for our fitness-focused family. Shaurya excels in team sports, thanks to valuable lessons from Alphatrix. Our journey has been remarkable!",
-    name: "Usha Bairagi",
-    role: "Parent, Dhirubhai Ambani International School",
-    tag: "Parent",
-  },
-  {
-    quote:
-      "My children have proudly been part of the program for over 6 years. Their grooming at Alphatrix is solely responsible for their golds, certificates, and achievements in Athletics. Through Alphatrix training, they have come to understand the importance of fitness.",
-    name: "Kiran Raheja",
-    role: "Parent, St. Gregorios School",
-    tag: "Parent",
-  },
+  
 ];
 
 export interface FaqItem {
