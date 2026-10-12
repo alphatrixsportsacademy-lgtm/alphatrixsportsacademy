@@ -1,3 +1,4 @@
+```ts
 /** Central site configuration and content. */
 
 export const NAV_LINKS = [
@@ -52,38 +53,38 @@ export interface Testimonial {
   quote: string;
   name: string;
   role: string;
-  tag: "Parent" | "Educator" | "School Principal";
+  tag: "Parent" | "Educator" | "School Principal" | "Senior Trainee";
   video?: string;
   highlights?: string[];
 }
 
 export const TESTIMONIALS: Testimonial[] = [
-{
-  quote:
-    "A parent and daughter share their experience with Alphatrix, highlighting their journey, the positive environment, and the memorable moments they have experienced together.",
-  name: "Sandeep Deshmukh",
-  role: "Parent",
-  tag: "Parent",
-  video: "/feedback1.mp4",
-  highlights: [
-    "Engaging sports sessions",
-    "Better confidence & discipline",
-    "Enjoys every session",
-  ],
-},
   {
-  quote:
-    "A parent shares her journey with Alphatrix, speaking about her experience, our supportive team, and the positive difference our programs have made.",
-  name: "Urmila Kasbekar",
-  role: "Parent",
-  tag: "Parent",
-  video: "/feedback2.mp4",
-  highlights: [
-    "Fun and engaging activities",
-    "Energetic coaching sessions",
-    "Meaningful physical development",
-  ],
-},
+    quote:
+      "A parent and daughter share their experience with Alphatrix, highlighting their journey, the positive environment, and the memorable moments they have experienced together.",
+    name: "Sandeep Deshmukh",
+    role: "Parent",
+    tag: "Parent",
+    video: "/feedback1.mp4",
+    highlights: [
+      "Engaging sports sessions",
+      "Better confidence & discipline",
+      "Enjoys every session",
+    ],
+  },
+  {
+    quote:
+      "A parent shares her journey with Alphatrix, speaking about her experience, our supportive team, and the positive difference our programs have made.",
+    name: "Urmila Kasbekar",
+    role: "Parent",
+    tag: "Parent",
+    video: "/feedback2.mp4",
+    highlights: [
+      "Fun and engaging activities",
+      "Energetic coaching sessions",
+      "Meaningful physical development",
+    ],
+  },
   {
     quote:
       "Alphatrix has shown me that fitness has no age limit. The sessions are fun, energetic, and motivating, and I truly enjoy every moment of staying active and healthy!",
@@ -91,7 +92,6 @@ export const TESTIMONIALS: Testimonial[] = [
     role: "Senior Fitness Trainee",
     tag: "Senior Trainee",
   },
-  
 ];
 
 export interface FaqItem {
@@ -132,7 +132,8 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: "Will sports kits be provided to the children?",
-    answer: "Yes, sports kits are provided to the children as part of the program.",
+    answer:
+      "Yes, sports kits are provided to the children as part of the program.",
   },
   {
     question: "What do the end-to-end solutions by Alphatrix include?",
@@ -149,3 +150,4 @@ export const FAQS: FaqItem[] = [
       "Alphatrix offers progressive courses for children from 2 to 16+ years — from the Junior Kleinetor Course (2–6 years) and the Rising Kleinetor Sports Program (6–12 years) to the Teen Kleinetor Course and Long-Term Athlete Development programs.",
   },
 ];
+```
