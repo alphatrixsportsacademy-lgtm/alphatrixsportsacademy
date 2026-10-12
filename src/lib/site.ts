@@ -1,4 +1,4 @@
-```ts
+
 /** Central site configuration and content. */
 
 export const NAV_LINKS = [
@@ -150,4 +150,4 @@ export const FAQS: FaqItem[] = [
       "Alphatrix offers progressive courses for children from 2 to 16+ years — from the Junior Kleinetor Course (2–6 years) and the Rising Kleinetor Sports Program (6–12 years) to the Teen Kleinetor Course and Long-Term Athlete Development programs.",
   },
 ];
-```
+
