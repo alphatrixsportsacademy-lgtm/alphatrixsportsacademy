@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { OutlineButton, Reveal, SectionPad, VoltButton } from "./shared";
 const SLIDES = [
   {
-    src: "/2.png",
+    src: "/group.jpg",
     alt: "Children playing football together",
     caption: "Play that builds real skill",
   },
