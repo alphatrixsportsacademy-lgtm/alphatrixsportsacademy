@@ -30,7 +30,7 @@ const MARQUEE_WORDS = [
 const STATS = [
   { value: "10+", label: "Years served" },
   { value: "NEP", label: "Aligned curriculum" },
-  { value: "4.5★", label: "Google rating" },
+  { value: "4.9★", label: "Google rating" },
 ];
 
 export function Hero() {
