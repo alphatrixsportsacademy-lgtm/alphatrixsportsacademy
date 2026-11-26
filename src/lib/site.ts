@@ -11,8 +11,8 @@ export const NAV_LINKS = [
 
 export const CONTACT = {
   address: ["Century Bazaar, Prabhadevi, Mumbai, Maharashtra 400025"],
-  phone: "+91 75060 53321",
-  phoneHref: "tel:+91 75060 53321",
+  phone: "+91 98675 34919",
+  phoneHref: "tel:+91 98675 34919",
   email: "alphatrixsportsacademy@gmail.com",
   emailHref: "mailto:alphatrixsportsacademy@gmail.com",
   hours: [
