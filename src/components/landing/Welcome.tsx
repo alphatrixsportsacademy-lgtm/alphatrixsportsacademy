@@ -93,29 +93,34 @@ export function Welcome() {
           </div>
 
           {/* Cards */}
-          <div className="grid gap-5 sm:grid-cols-2 lg:col-span-7">
-            {CARDS.map((card, i) => (
-              <Reveal key={card.title} delay={i * 0.07}>
-                <article className="group relative h-full overflow-hidden rounded-3xl border border-white/10 bg-background p-6 transition-all duration-300 hover:-translate-y-1.5 hover:border-volt/40 hover:shadow-[0_24px_50px_-20px_rgba(200,245,66,0.18)] sm:p-7">
-                  <span
-                    className="absolute -right-3 -top-5 font-display text-7xl uppercase text-white/[0.05] transition-colors duration-300 group-hover:text-volt/[0.12]"
-                    aria-hidden="true"
-                  >
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <span className="grid size-12 place-items-center rounded-2xl bg-volt/12 text-volt transition-all duration-300 group-hover:bg-volt group-hover:text-ink">
-                    <card.icon className="size-6" aria-hidden="true" />
-                  </span>
-                  <h3 className="mt-5 font-display text-2xl uppercase tracking-wide">
-                    {card.title}
-                  </h3>
-                  <p className="mt-2.5 text-sm leading-relaxed text-mist">
-                    {card.text}
-                  </p>
-                </article>
-              </Reveal>
-            ))}
-          </div>
+          
+{/* Cards */}
+<div className="grid gap-4 sm:grid-cols-2 lg:col-span-7">
+  {CARDS.map((card, i) => (
+    <Reveal key={card.title} delay={i * 0.07}>
+      <article className="group relative h-full overflow-hidden rounded-2xl border border-white/10 bg-background p-4 transition-all duration-300 hover:-translate-y-1.5 hover:border-volt/40 hover:shadow-[0_24px_50px_-20px_rgba(200,245,66,0.18)] sm:p-5">
+        <span
+          className="absolute -right-2 -top-4 font-display text-6xl uppercase text-white/[0.05] transition-colors duration-300 group-hover:text-volt/[0.12]"
+          aria-hidden="true"
+        >
+          {String(i + 1).padStart(2, "0")}
+        </span>
+
+        <span className="grid size-10 place-items-center rounded-xl bg-volt/12 text-volt transition-all duration-300 group-hover:bg-volt group-hover:text-ink">
+          <card.icon className="size-5" aria-hidden="true" />
+        </span>
+
+        <h3 className="mt-3 font-display text-xl uppercase tracking-wide">
+          {card.title}
+        </h3>
+
+        <p className="mt-2 text-sm leading-relaxed text-mist">
+          {card.text}
+        </p>
+      </article>
+    </Reveal>
+  ))}
+</div>
         </div>
       </SectionPad>
     </section>
