@@ -11,7 +11,7 @@ const SLIDES = [
     caption: "TOGETHER WE PLAY. TOGETHER WE GROW.",
   },
   {
-    src: "/schoolexercise.png",
+    src: "/schoolexercise.JPG",
     alt: "Young athlete sprinting on a track",
     caption: "Learning Through Movement. Growing Through Fitness.",
   },
