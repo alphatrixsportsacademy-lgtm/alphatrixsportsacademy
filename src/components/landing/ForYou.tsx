@@ -50,7 +50,7 @@ export function ForYou() {
   return (
     <section
       id="programs"
-      className="relative overflow-hidden bg-ink py-24 lg:py-32"
+      className="relative overflow-hidden bg-ink pt-10 pb-24 lg:pt-12 lg:pb-32"
     >
       <div
         className="absolute left-1/2 top-[-10rem] h-px w-2/3 -translate-x-1/2 bg-gradient-to-r from-transparent via-volt/40 to-transparent"
