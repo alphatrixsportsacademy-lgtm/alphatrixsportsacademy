@@ -91,6 +91,12 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Bachi kakarya",
     role: "Senior Fitness Trainee",
     tag: "Senior Trainee",
+    video: "/oldtranee (1).mp4",
+    highlights: [
+      "Age-friendly fitness sessions",
+      "Fun and motivating workouts",
+      "Active and healthy lifestyle",
+    ],
   },
 ];
 
