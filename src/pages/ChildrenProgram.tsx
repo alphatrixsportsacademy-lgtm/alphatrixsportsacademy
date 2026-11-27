@@ -159,7 +159,7 @@ export default function ChildrenProgram() {
 
                   <div className="relative overflow-hidden rounded-[2rem] border border-white/10">
                     <img
-                      src={"/1.png"}
+                      src={"/children.jpg"}
                       alt="Children participating in sports training"
                       className="h-[24rem] w-full object-cover sm:h-[30rem]"
                     />
