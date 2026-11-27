@@ -36,7 +36,7 @@ const ESSENTIALS = [
 
 export function Essentials() {
   return (
-    <section id="essentials" className="relative overflow-hidden bg-ink py-24 lg:py-32">
+    <section id="essentials" className="relative overflow-hidden bg-ink pt-24 pb-10 lg:pt-32 lg:pb-12">
       <div
         className="bg-grid-faint absolute inset-0 opacity-60"
         aria-hidden="true"
