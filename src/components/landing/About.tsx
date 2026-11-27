@@ -8,7 +8,7 @@ const SLIDES = [
   {
     src: "/group.jpg",
     alt: "Children playing football together",
-    caption: "Play that builds real skill",
+    caption: "TOGETHER WE PLAY. TOGETHER WE GROW.",
   },
   {
     src: "/1.png",
