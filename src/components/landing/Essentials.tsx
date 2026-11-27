@@ -62,29 +62,38 @@ export function Essentials() {
           }
         />
 
-        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-          {ESSENTIALS.map((item, i) => (
-            <Reveal key={item.num} delay={i * 0.08} className="h-full">
-              <article className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-white/10 bg-card p-6 transition-all duration-300 hover:-translate-y-2 hover:border-volt/50 hover:shadow-[0_26px_60px_-24px_rgba(200,245,66,0.3)]">
-                <span className="font-display text-5xl uppercase leading-none text-outline-faint transition-all duration-300 group-hover:text-outline-volt">
-                  {item.num}
-                </span>
-                <span className="mt-5 grid size-12 place-items-center rounded-2xl bg-volt/12 text-volt transition-all duration-300 group-hover:rotate-6 group-hover:bg-volt group-hover:text-ink">
-                  <item.icon className="size-6" aria-hidden="true" />
-                </span>
-                <h3 className="mt-5 font-display text-xl uppercase leading-tight tracking-wide">
-                  {item.title}
-                </h3>
-                <p className="mt-2.5 text-sm leading-relaxed text-mist">{item.text}</p>
 
-                <span
-                  className="absolute inset-x-6 bottom-0 h-0.5 origin-left scale-x-0 rounded-full bg-volt transition-transform duration-300 group-hover:scale-x-100"
-                  aria-hidden="true"
-                />
-              </article>
-            </Reveal>
-          ))}
-        </div>
+<div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+  {ESSENTIALS.map((item, i) => (
+    <Reveal key={item.num} delay={i * 0.08} className="h-full">
+      <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-white/10 bg-card p-4 transition-all duration-300 hover:-translate-y-2 hover:border-volt/50 hover:shadow-[0_26px_60px_-24px_rgba(200,245,66,0.3)]">
+
+        <span className="font-display text-4xl uppercase leading-none text-outline-faint transition-all duration-300 group-hover:text-outline-volt">
+          {item.num}
+        </span>
+
+        <span className="mt-3 grid size-10 place-items-center rounded-xl bg-volt/12 text-volt transition-all duration-300 group-hover:rotate-6 group-hover:bg-volt group-hover:text-ink">
+          <item.icon className="size-5" aria-hidden="true" />
+        </span>
+
+        <h3 className="mt-3 font-display text-lg uppercase leading-tight tracking-wide">
+          {item.title}
+        </h3>
+
+        <p className="mt-2 text-sm leading-relaxed text-mist">
+          {item.text}
+        </p>
+
+        <span
+          className="absolute inset-x-4 bottom-0 h-0.5 origin-left scale-x-0 rounded-full bg-volt transition-transform duration-300 group-hover:scale-x-100"
+          aria-hidden="true"
+        />
+
+      </article>
+    </Reveal>
+  ))}
+</div>
+
       </SectionPad>
     </section>
   );
